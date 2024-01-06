@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-06T18:16:26 IST" name="Default suite" finished-at="2024-01-06T18:16:43 IST" duration-ms="17685">
+    <groups>
+    </groups>
+    <test started-at="2024-01-06T18:16:26 IST" name="Default test" finished-at="2024-01-06T18:16:43 IST" duration-ms="17685">
+      <class name="com.Guru99Insurance_TC.RegisterUser_TC">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.Guru99Insurance_TC.RegisterUser_TC@32502377]" started-at="2024-01-06T18:16:24 IST" name="setUpSuite" finished-at="2024-01-06T18:16:26 IST" duration-ms="1343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Guru99Insurance_TC.RegisterUser_TC@32502377]" started-at="2024-01-06T18:16:26 IST" name="setup" finished-at="2024-01-06T18:16:32 IST" duration-ms="6587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySignup_Page()[pri:1, instance:com.Guru99Insurance_TC.RegisterUser_TC@32502377]" started-at="2024-01-06T18:16:32 IST" name="VerifySignup_Page" finished-at="2024-01-06T18:16:37 IST" duration-ms="5004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignup_Page -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Guru99Insurance_TC.RegisterUser_TC@32502377]" started-at="2024-01-06T18:16:37 IST" name="tearDownMethod" finished-at="2024-01-06T18:16:38 IST" duration-ms="542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySignup_Page status=SUCCESS method=RegisterUser_TC.VerifySignup_Page()[pri:1, instance:com.Guru99Insurance_TC.RegisterUser_TC@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="Verify_Login()[pri:2, instance:com.Guru99Insurance_TC.RegisterUser_TC@32502377]" started-at="2024-01-06T18:16:38 IST" name="Verify_Login" finished-at="2024-01-06T18:16:41 IST" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Guru99Insurance_TC.RegisterUser_TC@32502377]" started-at="2024-01-06T18:16:41 IST" name="tearDownMethod" finished-at="2024-01-06T18:16:41 IST" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Login status=SUCCESS method=RegisterUser_TC.Verify_Login()[pri:2, instance:com.Guru99Insurance_TC.RegisterUser_TC@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="Verify_Logout()[pri:3, instance:com.Guru99Insurance_TC.RegisterUser_TC@32502377]" started-at="2024-01-06T18:16:41 IST" name="Verify_Logout" finished-at="2024-01-06T18:16:43 IST" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Logout -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Guru99Insurance_TC.RegisterUser_TC@32502377]" started-at="2024-01-06T18:16:43 IST" name="tearDownMethod" finished-at="2024-01-06T18:16:43 IST" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Logout status=SUCCESS method=RegisterUser_TC.Verify_Logout()[pri:3, instance:com.Guru99Insurance_TC.RegisterUser_TC@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Guru99Insurance_TC.RegisterUser_TC@32502377]" started-at="2024-01-06T18:16:43 IST" name="tearDown" finished-at="2024-01-06T18:16:43 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Guru99Insurance_TC.RegisterUser_TC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

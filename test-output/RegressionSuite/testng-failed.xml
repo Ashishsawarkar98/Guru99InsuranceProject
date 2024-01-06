@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.Guru99Telecom_TC.AddTariffPlan_TC">
+        <methods>
+          <include name="VerifyTariffPlan"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- com.Guru99Telecom_TC.AddTariffPlan_TC -->
+      <class name="com.Guru99Telecom_TC.AddCustomerToTariffPlan_TC">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="tearDown"/>
+          <include name="VerifyCustomerAddToTariffPlan"/>
+          <include name="setup"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- com.Guru99Telecom_TC.AddCustomerToTariffPlan_TC -->
+      <class name="com.Guru99Telecom_TC.PayBilling_TC">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyPayBilling"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- com.Guru99Telecom_TC.PayBilling_TC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
